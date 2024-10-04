@@ -1,0 +1,23 @@
+.video-activity {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.video-steps {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.video-activity .activitystep{
+    padding: 12px;
+}
+
+.video-activity .activitystep.active{
+    border-color: red;
+}
+
+@media (max-width:768px) {
+    .video-activity #steps {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,453 @@
+site_name: Unofficial Infinity Docs
+site_url: https://mydomain.org/infinity/docs
+# repo_url: https://github.com/gmoney1729/WriggleSurveys
+theme:
+  favicon: icons/Infinity.ico
+  logo: icons/Infinity_256.png
+  features:
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.tabs.sticky
+  # - navigation.prune
+  - navigation.indexes
+  - toc.follow
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - header.autohide
+  - announce.dismiss
+  - navigation.footer
+
+
+  name: material
+  custom_dir: overrides
+
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: material/youtube
+      link: https://www.youtube.com/playlist?list=PL0td7rOVk_IV_al3ziSKuAYA1VVu6W0rM
+      name: Leica Infinity on YouTube
+
+  generator: false
+
+copyright: "&copy; 2024 Leica Geosystems AG - Part of Hexagon"
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Documentation:
+    - Overall:
+      - Welcome to Leica Infinity:
+        - What is Infinity: What_is_Infinity-0000030560.md
+        - Training Materials: Training_Materials-0000030561.md
+      - License Options:
+        - Basic Modules: Basic_Modules-0000030555.md
+        - Optional Modules: Optional_Modules-0000030556.md
+      - Getting Started:
+        - Working with the User Interface:
+          - Overview: Overview-0000000098.md
+          - Ribbon Bar: Ribbon_Bar-0000023249.md
+          - Graphical View: Graphical_View-0000023259.md
+          - Navigator: Navigator-0000023250.md
+          - Data Inspector: Data_Inspector-0000023252.md
+          - Property Grid: Property_Grid-0000023256.md
+          - Quick Access Bar: Quick_Access_Bar-0000030592.md
+          - Status Bar: Status_Bar-0000023294.md
+          - Layer Manager: Layer_Manager-0000023290.md
+          - BIM Explorer: BIM_Explorer-0000023292.md
+          - Flythrough Creator: Flythrough_Creator-0000030536.md
+        - Local and Global Data Objects: Local_and_Global_Data_Objects-0000023236.md
+        - Objects, Point Roles and Symbols: Objects_Point_Roles_and_Symbols-0000023234.md
+        - Shortcut Keys in Infinity: Shortcut_Keys_in_Infinity-0000029784.md
+        - Window Behaviour: Window_Behaviour-0000023296.md
+        - Customising Colours: Customising_Colours-0000023299.md
+        - Working with Coordinate Systems:
+          - Overview: Overview-0000000098-2.md
+          - Coordinate Systems inside a Project: Coordinate_Systems_inside_a_Project-0000023303.md
+          - Coordinate System Properties: Coordinate_System_Properties-0000023305.md
+    - Basic Modules:
+      - File:
+        - Overview: Overview-0000000098-3.md
+        - Save as Template: Save_as_Template-0000030718.md
+        - Info & Settings: Info__Settings-0000023640.md
+        - Welcome: Welcome-0000031962.md
+        - New Project: New_Project-0000023642.md
+        - Project Manager: Project_Manager-0000023643.md
+        - Tools:
+          - Overview: Overview-0000000098-4.md
+          - Code Tables: Code_Tables-0000023655.md
+          - Code Manager:
+            - Overview: Overview-0000000098-5.md
+            - Import: Import-0000032202.md
+            - Export: Export-0000032234.md
+            - Code Group: Code_Group-0000023671.md
+            - Code: Code-0000023672.md
+            - Code Attribute: Code_Attribute-0000023673.md
+            - Layer: Layer-0000023674.md
+            - Delete: Delete-0000032239.md
+            - Convert to Line/Area Code: Convert_to_LineAreaCode-0000023675.md
+            - Convert to Point Code: Convert_to_Point_Code-0000023670.md
+            - Layers and Blocks: Layers_and_Blocks-0000033745.md
+            - Line Styles: Line_Styles-0000027365.md
+          - Targets: Targets-0000023656.md
+          - Antennas:
+            - Overview: Overview-0000000098-6.md
+            - Delete: Delete-0000032239-2.md
+            - Import: Import-0000032202-2.md
+            - Export: Export-0000032234-2.md
+            - Copy to Project: Copy_to_Project-0000032203.md
+          - Coordinate Systems: Coordinate_Systems-0000000715.md
+          - Coordinate System Manager:
+            - Overview: Overview-0000000098-7.md
+            - Create Geoid Model: Create_Geoid_Model-0000032825.md
+            - Create CSCS Model: Create_CSCS_Model-0000025426.md
+            - SnakeGrid Coordinate System: SnakeGrid_Coordinate_System-0000039160.md
+            - Coordinate Systems: Coordinate_Systems-0000000715-2.md
+            - Geoid Models: Geoid_Models-0000023668.md
+            - CSCS Models: CSCS_Models-0000023669.md
+            - Determine Transformation:
+              - Overview: Overview-0000000098-8.md
+              - Determine Transformation - Settings: Determine_Transformation_Settings-0000026540.md
+              - Determine Transformation - Match Points: Determine_Transformation_Match_Points-0000026541.md
+              - Determine Transformation - Results: Determine_Transformation_Results-0000026542.md
+              - Classic 3D: Classic_3D-0000026533.md
+              - Onestep: Onestep-0000026535.md
+              - Twostep: Twostep-0000026536.md
+              - Quick Ground: Quick_Ground-0000041904.md
+              - Which Approach to Use: Which_Approach_to_Use-0000026537.md
+              - Minimum Requirements for Coordinates: Minimum_Requirements_for_Coordinates-0000026538.md
+          - Georeferenced Images:
+            - Overview: Overview-0000000098-9.md
+            - Delete: Delete-0000032239-3.md
+            - Import: Import-0000032202-3.md
+            - Export: Export-0000032234-3.md
+            - Copy to Project: Copy_to_Project-0000032203-2.md
+          - Classification Tables: Classification_Tables-0000041906.md
+        - Services:
+          - Overview: Overview-0000000098-10.md
+          - Leica Exchange: Leica_Exchange-0000023687.md
+          - Leica ConX: Leica_ConX-0000023688.md
+          - Leica Cyclone: Leica_Cyclone-0000026915.md
+          - HxGN SmartNet: HxGN_SmartNet-0000023689.md
+          - X-pos: Xpos-0000031771.md
+          - Earth Data: Earth_Data-0000036074.md
+          - HxGN Content Program: HxGN_Content_Program-0000023690.md
+          - OpenStreetMap: OpenStreetMap-0000025373.md
+          - Map Services:
+            - Overview: Overview-0000000098-11.md
+            - New: New-0000033490.md
+            - Edit: Edit-0000033518.md
+            - Delete: Delete-0000032239-4.md
+            - Import: Import-0000032202-4.md
+            - Export: Export-0000032234-4.md
+          - ArcGIS Online: ArcGIS_Online-0000031752.md
+          - Portal for ArcGIS: Portal_for_ArcGIS-0000034378.md
+          - Bricsys 24/7: Bricsys_247-0000030578.md
+          - AUTODESK BIM 360: AUTODESK_BIM_360-0000026496.md
+          - Bentley ProjectWise: Bentley_ProjectWise-0000030573.md
+          - Procore: Procore-0000031867.md
+          - vGIS: vGIS-0000034381.md
+        - Preferences:
+          - Overview: Overview-0000000098-12.md
+          - Display: Display-0000032716.md
+          - Proxy: Proxy-0000032719.md
+          - Imaging: Imaging-0000032721.md
+        - Help & Support:
+          - Overview: Overview-0000000098-13.md
+          - Localisation Tool: Localisation_Tool-0000023693.md
+        - About:
+          - Overview: Overview-0000000098-14.md
+          - Check for Updates: Check_for_Updates-0000023692.md
+          - Licence Information: Licence_Information-0000031966.md
+      - Home:
+        - Overview: Overview-0000000098-15.md
+        - Data Import:
+          - Overview: Overview-0000000098-16.md
+          - Import ASCII Data: Import_ASCII_Data-0000023324.md
+          - Importing SKI ASCII Files: Importing_SKI_ASCII_Files-0000023325.md
+          - Import Aibot Data: Import_Aibot_Data-0000027963.md
+          - Import DJI GNSS Flight Data: Import_DJI_GNSS_Flight_Data-0000035967.md
+          - Import LGO Project: Import_LGO_Project-0000030580.md
+        - Data Export:
+          - Overview: Overview-0000000098-17.md
+          - Export ASCII Data: Export_ASCII_Data-0000023339.md
+          - Export UAV Track and Import to AiProFlight Software: Export_UAV_Track_and_Import_to_AiProFlight_Software-0000023340.md
+        - Reports: Reports-0000023312.md
+        - Map Services:
+          - Base Map: Base_Map-0000029716.md
+          - Clip Base Map: Clip_Base_Map-0000023315.md
+          - Feature Info: Feature_Info-0000029709.md
+          - Get Feature: Get_Feature-0000029717.md
+          - Google Earth: Google_Earth-0000023313.md
+        - COGO Calculations:
+          - Measure Point to Point: Measure_Point_to_Point-0000023357.md
+          - Compute Point: Compute_Point-0000024097.md
+          - GNSS Hidden Points: GNSS_Hidden_Points-0000026905.md
+          - Shift, Rotate, Scale: Shift_Rotate_Scale-0000023358.md
+        - Compute Project Coordinates: Compute_Project_Coordinates-0000023316.md
+        - Transform Local Grid to Local Grid: Transform_Local_Grid_to_Local_Grid-0000032824.md
+      - Features:
+        - Overview: Overview-0000000098-18.md
+        - How to Create New Features?: How_to_Create_New_Features-0000023589.md
+        - How to Create New Points from CAD Entities?: How_to_Create_New_Points_from_CAD_Entities-0000023590.md
+        - How to Edit the Feature Geometry?: How_to_Edit_the_Feature_Geometry-0000023591.md
+        - Multi-Editing of Point Code Information: MultiEditing_of_Point_Code_Information-0000023592.md
+        - How to Copy from CAD?: How_to_Copy_from_CAD-0000023593.md
+        - Copy from CAD - Settings: Copy_from_CAD_Settings-0000023594.md
+        - Project Code Manager: Project_Code_Manager-0000023595.md
+        - Rename: Rename-0000023596.md
+        - Time Series: Time_Series-0000030567.md
+        - Staked Points in Infinity: Staked_Points_in_Infinity-0000023597.md
+        - Points Measured to Reference: Points_Measured_to_Reference-0000037203.md
+        - Project: Project-0000041915.md
+      - External Services:
+        - Leica ConX: Leica_ConX-0000023609.md
+        - Export to Leica ConX: Export_to_Leica_ConX-0000023341.md
+        - Publish to Leica Cyclone: Publish_to_Leica_Cyclone-0000026913.md
+        - Publish to vGIS: Publish_to_vGIS-0000034393.md
+        - Save as an ArcGIS Online Web Map: Save_as_an_ArcGIS_Online_Web_Map-0000031756.md
+        - Save as Portal for ArcGIS Web Map: Save_as_Portal_for_ArcGIS_Web_Map-0000037088.md
+    - Optional Modules:
+      - TPS-Processing:
+        - Overview: Overview-0000000098-19.md
+        - New Point: New_Point-0000023364.md
+        - New Station: New_Station-0000023365.md
+        - New Observation: New_Observation-0000033310.md
+        - Checked Points: Checked_Points-0000034284.md
+        - Observation Properties: Observation_Properties-0000023366.md
+        - Setup Properties: Setup_Properties-0000023367.md
+        - Setup Methods: Setup_Methods-0000023368.md
+        - Edit Station Setup:
+          - Overview: Overview-0000000098-20.md
+          - Edit Setup Wizard - Station and Method: Edit_Setup_Wizard_Station_and_Method-0000023377.md
+          - Edit Setup Wizard - Setup Observations: Edit_Setup_Wizard_Setup_Observations-0000023378.md
+          - Edit Setup Wizard - Compute Setup: Edit_Setup_Wizard_Compute_Setup-0000023379.md
+        - Create or Edit Traverse:
+          - Overview: Overview-0000000098-21.md
+          - Traverse Wizard - Extract Traverse: Traverse_Wizard_Extract_Traverse-0000023386.md
+          - Traverse Wizard - Observation Review: Traverse_Wizard_Observation_Review-0000023387.md
+          - Traverse Wizard - Processing Parameters: Traverse_Wizard_Processing_Parameters-0000023388.md
+          - Traverse Wizard - Calculate Traverse: Traverse_Wizard_Calculate_Traverse-0000023389.md
+          - Traverse Wizard - Traverse Result: Traverse_Wizard_Traverse_Result-0000023390.md
+          - Traverse Processing Parameters: Traverse_Processing_Parameters-0000023392.md
+        - Create or edit Sets of Angles:
+          - Overview: Overview-0000000098-22.md
+          - Sets of Angles Wizard - Select Setup and Points: Sets_of_Angles_Wizard_Select_Setup_and_Points-0000023401.md
+          - Sets of Angles Wizard - Sets Review: Sets_of_Angles_Wizard_Sets_Review-0000023403.md
+          - Sets of Angles Wizard - Sets of Angles Results: Sets_of_Angles_Wizard_Sets_of_Angles_Results-0000023404.md
+        - Reduce Foresights:
+          - Overview: Overview-0000000098-23.md
+          - Reduce Foresights Wizard - Select Setup and Points: Reduce_Foresights_Wizard_Select_Setup_and_Points-0000023412.md
+          - Reduce Foresights Wizard - Foresights Review: Reduce_Foresights_Wizard_Foresights_Review-0000023413.md
+          - Reduce Foresights Wizard - Results: Reduce_Foresights_Wizard_Results-0000023414.md
+        - Update Stations:
+          - Overview: Overview-0000000098-24.md
+          - Update Stations Wizard: Update_Stations_Wizard-0000025663.md
+      - GNSS-Processing:
+        - Overview: Overview-0000000098-25.md
+        - How to Post-Process GNSS Data?: How_to_PostProcess_GNSS_Data-0000023422.md
+        - Create a Virtual Reference Station (VRS): Create_a_Virtual_Reference_Station_VRS-0000029797.md
+        - GNSS Analysis Tools: GNSS_Analysis_Tools-0000027629.md
+        - RINEX Import: RINEX_Import-0000023423.md
+        - Data: Data-0000023424.md
+        - Processing Strategy: Processing_Strategy-0000023425.md
+        - Advanced Settings: Advanced_Settings-0000023426.md
+        - Automatic Processing: Automatic_Processing-0000025653.md
+        - GNSS Inspector:
+          - Overview: Overview-0000000098-26.md
+          - GNSS Tracks: GNSS_Tracks-0000031913.md
+          - GNSS Intervals: GNSS_Intervals-0000023427.md
+          - GNSS Processing Results: GNSS_Processing_Results-0000031916.md
+          - Point Measured by Precise Point Positioning: Point_Measured_by_Precise_Point_Positioning-0000033389.md
+        - GNSS Manager:
+          - Overview: Overview-0000000098-27.md
+          - Antennas/Calibration Sets: AntennasCalibration_Sets-0000029791.md
+          - Reference Stations: Reference_Stations-0000029792.md
+          - Satellite Availability: Satellite_Availability-0000029793.md
+          - Precise Ephemeris: Precise_Ephemeris-0000029794.md
+          - Ionospheric Model: Ionospheric_Model-0000029795.md
+      - Level-Processing:
+        - Overview: Overview-0000000098-28.md
+        - Split Level Line: Split_Level_Line-0000023439.md
+        - Join Level Line: Join_Level_Line-0000023440.md
+        - Height Observation: Height_Observation-0000023441.md
+        - Remove Adjustment: Remove_Adjustment-0000023442.md
+        - Level Line Data:
+          - Overview: Overview-0000000098-29.md
+          - Level Lines: Level_Lines-0000023450.md
+          - Level Line Details: Level_Line_Details-0000023451.md
+          - Level Line Graph View: Level_Line_Graph_View-0000023452.md
+          - Level Measurements: Level_Measurements-0000025574.md
+          - Using Turning Points: Using_Turning_Points-0000023453.md
+          - Edit Level Standard Deviations: Edit_Level_Standard_Deviations-0000023447.md
+        - Adjust Level Line:
+          - Overview: Overview-0000000098-30.md
+          - Process Level Line Settings: Process_Level_Line_Settings-0000032818.md
+          - Process Level Line Calculate Information: Process_Level_Line_Calculate_Information-0000023464.md
+          - Process Level Line Results: Process_Level_Line_Results-0000023465.md
+      - Surfaces:
+        - Overview: Overview-0000000098-31.md
+        - Surface Types:
+          - Overview: Overview-0000000098-32.md
+          - Refined: Refined-0000041918.md
+          - Regular: Regular-0000041919.md
+          - Interpolated: Interpolated-0000041920.md
+          - Digital Surface Model: Digital_Surface_Model-0000041917.md
+          - Digital Terrain Model: Digital_Terrain_Model-0000041925.md
+        - Surface Properties: Surface_Properties-0000023475.md
+        - Cut Surface: Cut_Surface-0000040936.md
+        - Surface Contours: Surface_Contours-0000023476.md
+        - Volume Calculations: Volume_Calculations-0000023477.md
+        - Comparison Maps: Comparison_Maps-0000030603.md
+        - Cut Fill Maps: Cut_Fill_Maps-0000024183.md
+        - Trim Triangles: Trim_Triangles-0000026917.md
+        - Remove Vertices: Remove_Vertices-0000029720.md
+        - Fill Holes: Fill_Holes-0000035222.md
+      - Point Clouds:
+        - Overview: Overview-0000000098-33.md
+        - Point Cloud Properties: Point_Cloud_Properties-0000023473.md
+        - Hide/Unhide: HideUnhide-0000040939.md
+        - Reduce Point Clouds: Reduce_Point_Clouds-0000029850.md
+        - Clipping: Clipping-0000027566.md
+        - Manual Classification:
+          - Overview: Overview-0000000098-34.md
+          - Project Classification Manager: Project_Classification_Manager-0000041975.md
+      - Point Cloud Registration:
+        - Overview: Overview-0000000098-35.md
+        - Point Cloud Registration Settings: Point_Cloud_Registration_Settings-0000037098.md
+        - Register Tool Workflow: Register_Tool_Workflow-0000037103.md
+        - Registration Using Visual Alignment: Registration_Using_Visual_Alignment-0000037106.md
+        - Registration Using Targets: Registration_Using_Targets-0000037111.md
+        - Applying Control: Applying_Control-0000037113.md
+        - Optimise Scan Group, Store and Create Unified Point Cloud: Optimise_Scan_Group_Store_and_Create_Unified_Point_Cloud-0000037115.md
+        - Reports & Exports: Reports__Exports-0000037117.md
+        - Importing BLK360 and RTC360 Data: Importing_BLK360_and_RTC360_Data-0000037119.md
+        - Send Point Clouds To Register Tool: Send_Point_Clouds_To_Register_Tool-0000041911.md
+      - Imaging:
+        - Overview: Overview-0000000098-36.md
+        - Images:
+          - Overview: Overview-0000000098-37.md
+          - Import Images: Import_Images-0000034789.md
+          - Imaging Inspector: Imaging_Inspector-0000033025.md
+          - Image Properties: Image_Properties-0000023478.md
+          - Image Viewer: Image_Viewer-0000033027.md
+          - Link Images: Link_Images-0000033029.md
+          - Unlink Images: Unlink_Images-0000033031.md
+          - Resize Frustum: Resize_Frustum-0000039385.md
+          - Delete Images: Delete_Images-0000037054.md
+          - Georeference Images:
+            - Overview: Overview-0000000098-38.md
+            - Import: Import-0000032202-5.md
+            - Export: Export-0000032234-5.md
+            - Georeference Tool: Georeference_Tool-0000023350.md
+        - Image Group:
+          - Overview: Overview-0000000098-39.md
+          - Image Group Properties: Image_Group_Properties-0000033035.md
+          - Managing Image Groups:
+            - New Image Group: New_Image_Group-0000033037.md
+            - Add to Image Group: Add_to_Image_Group-0000033039.md
+            - Remove from Image Group: Remove_from_Image_Group-0000033041.md
+            - Merge to Image Group: Merge_to_Image_Group-0000033043.md
+        - Image Point Computation:
+          - Overview: Overview-0000000098-40.md
+          - Image Group Viewer: Image_Group_Viewer-0000023480.md
+          - New Image Point: New_Image_Point-0000023481.md
+        - Image Processing:
+          - Overview: Overview-0000000098-41.md
+          - Overview Image: Overview_Image-0000041900.md
+          - Image Processing Settings: Image_Processing_Settings-0000025704.md
+          - Image Processing Workflow:
+            - Orientation of the Images: Orientation_of_the_Images-0000032273.md
+            - Marking of Control Points: Marking_of_Control_Points-0000025705.md
+            - Optimisation of the Orientation: Optimisation_of_the_Orientation-0000034776.md
+            - Generation of the Dense Point Cloud: Generation_of_the_Dense_Point_Cloud-0000034777.md
+            - Filtering of the Dense Point Cloud: Filtering_of_the_Dense_Point_Cloud-0000034779.md
+            - Generation of the DSM & Orthophoto: Generation_of_the_DSM__Orthophoto-0000034778.md
+          - Image Processing Report: Image_Processing_Report-0000034783.md
+          - Task Manager: Task_Manager-0000034781.md
+          - Export Image Processing Results: Export_Image_Processing_Results-0000025706.md
+          - Processing Considerations: Processing_Considerations-0000025708.md
+      - Infrastructure:
+        - Overview: Overview-0000000098-42.md
+        - Alignment Objects: Alignment_Objects-0000023520.md
+        - Roads:
+          - Road Objects: Road_Objects-0000023521.md
+          - Cross Sections: Cross_Sections-0000023522.md
+          - Material Layers: Material_Layers-0000023523.md
+          - Road Material Surfaces: Road_Material_Surfaces-0000035228.md
+          - Inspect Check Road and Stake Road Application Results: Inspect_Check_Road_and_Stake_Road_Application_Results-0000023524.md
+        - Tunnels:
+          - Tunnel Objects: Tunnel_Objects-0000038601.md
+          - Tunnel Alignment: Tunnel_Alignment-0000039372.md
+          - Tunnel Layers: Tunnel_Layers-0000038602.md
+          - Tunnel Profiles: Tunnel_Profiles-0000038606.md
+          - Tunnel Sections: Tunnel_Sections-0000038608.md
+          - Tunnel Rotations: Tunnel_Rotations-0000038595.md
+          - Tunnel Material Surfaces: Tunnel_Material_Surfaces-0000041871.md
+          - Inspect Check Tunnel and Stake Tunnel Application Results: Inspect_Check_Tunnel_and_Stake_Tunnel_Application_Results-0000038590.md
+          - As-Built Tunnel Profiles: AsBuilt_Tunnel_Profiles-0000040899.md
+        - Infrastructure Tool - Roads and Alignments:
+          - Overview: Overview-0000000098-43.md
+          - Alignments: Alignments-0000023533.md
+          - Cross Section Assignments: Cross_Section_Assignments-0000023534.md
+        - Infrastructure Tool - Tunnels:
+          - Overview: Overview-0000000098-44.md
+          - Tunnel Profiles: Tunnel_Profiles-0000038593.md
+          - Tunnel Sections: Tunnel_Sections-0000038594.md
+          - Tunnel Rotations: Tunnel_Rotations-0000038595-2.md
+        - CAD to Tunnel Profile Tool: CAD_to_Tunnel_Profile_Tool-0000039623.md
+      - Adjustments:
+        - Overview: Overview-0000000098-45.md
+        - Free and Constrained Adjustments: Free_and_Constrained_Adjustments-0000023561.md
+        - Adjustment Settings:
+          - General Adjustment Settings: General_Adjustment_Settings-0000024062.md
+          - Test Criteria: Test_Criteria-0000024069.md
+          - Advanced Terrestrial Parameters: Advanced_Terrestrial_Parameters-0000024070.md
+          - Coordinate System Settings: Coordinate_System_Settings-0000024071.md
+        - Inspecting Adjustments:
+          - Overview: Overview-0000000098-46.md
+          - Error Ellipses/Ellipsoids: Error_EllipsesEllipsoids-0000024042.md
+          - Reliability Boxes: Reliability_Boxes-0000024053.md
+        - Adjustments Tools:
+          - Loops Computation: Loops_Computation-0000035337.md
+          - Pre-Analysis: PreAnalysis-0000035338.md
+        - Least Squares Adjustment:
+          - Mathematical Model: Mathematical_Model-0000023564.md
+          - Stochastic Model: Stochastic_Model-0000023566.md
+        - Statistical Testing:
+          - Overview: Overview-0000000098-47.md
+          - F-Test: FTest-0000023568.md
+          - Chi-Square Test: ChiSquare_Test-0000024073.md
+          - W-Test: WTest-0000023569.md
+          - T-Test: TTest-0000023570.md
+          - Interpreting Test Results: Interpreting_Test_Results-0000023571.md
+  - Tutorials:
+    - Infrastructure:
+      - Create Tunnel From CAD File: Create-Tunnel-From-CAD-File.md

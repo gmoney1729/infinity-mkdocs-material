@@ -1,0 +1,197 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+To use the calc() function please write ~"calc()"
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@border_color:#666666;
+@background_color_nav:#ffffff;
+@color_nav:#000000;
+@background_color_nav_active:#999999;
+@color_nav_active:#ffffff;
+@background_color_nav_hover:#666666;
+@color_nav_hover:#ffffff;
+@background_color_button: transparent;
+@color_title:#000000;
+@color_title_hover:#ff0032;
+
+/* ---------- Arrow ---------- */
+/* white 
+@arrow_up: url('../icons/ArrowUpWhite.svg');
+@arrow_down: url('../icons/ArrowDownWhite.svg');
+*/
+/* black */
+@arrow_up: url('../icons/ArrowUpBlack.svg');
+@arrow_down: url('../icons/ArrowDownBlack.svg');
+
+/* other 
+for other colors please edit the custom arrows.svg
+@arrow_up: url('../icons/ArrowUpCustom.svg');
+@arrow_down: url('../icons/ArrowDownCustom.svg');
+*/
+
+
+h1,h2,h3,h4,h5,h6{
+	color: #000;
+}
+
+a.link {
+    color: #0097BA;
+	text-decoration: underline;
+	
+	&:hover{
+		color: #666666;
+	}
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/*
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+.highlight{
+	background-color: grey;
+	color: white;
+}
+
+.btn{
+	background-color: @background_color_button;
+	color: @color_nav;
+	border-color: @border_color;
+
+	&:hover{
+		background-color: @background_color_nav_hover;
+		color: @color_nav_hover;
+	}
+	&:focus{
+		background-color: @background_color_nav_hover;
+		color: @color_nav_hover;
+	}
+}
+
+.navbar .navbar-toggle {
+	border-color: @border_color;
+	&:hover{
+		background-color: @background_color_nav_hover;
+	
+		.icon-bar{
+			background-color: @color_nav_hover;
+		}
+
+	}
+
+	.icon-bar{
+		background-color: @color_nav;
+	}
+    
+}
+
+.navbar .navbar-toggle:hover .icon-bar {
+    background-color: @color_nav_hover;
+}
+
+.top-nav{
+	>li {
+		>a {
+			&:hover {
+				color: @color_nav_hover;
+				background-color: @background_color_nav_hover;
+			}
+			&:focus {
+				color: @color_nav_hover;
+				background-color: @background_color_nav_hover;
+			}
+		}
+	}
+}
+
+.navbar {
+    background-color: @background_color_nav;
+}
+
+.navbar-brand-title {
+	color: @color_title;
+	&:hover{
+		color: @color_title_hover;
+	}
+}
+
+.side-nav {
+	li {
+		a {
+			color: @color_nav;
+			border-color: @border_color;
+		}
+		a[data-toggle="collapse"] {
+			background-image: @arrow_down;
+		}
+		a[aria-expanded="true"] {
+			background-image: @arrow_up;
+		}
+		a:hover{
+			color: @color_nav_hover;
+			background-color: @background_color_nav_hover;
+		}
+	}
+}
+
+nav{
+	.navbar-nav {
+		li.active {
+			>a {
+				color: @color_nav_active;
+				background-color: @background_color_nav_active;
+			}
+			&:hover{
+				>a{
+					color: @color_nav_hover;
+				}
+			}
+		}
+	}
+}
+
+.navbar-toggle-tablet {
+	border-color: @border_color;
+	background-color: @background_color_nav;
+	.icon-bar {
+		background-color: @color_nav;
+	}
+
+	&:hover{
+
+		background-color: @background_color_nav_hover;
+
+		.icon-bar {
+			background-color: @color_nav_hover;
+		}
+	}
+}
+
+footer {
+	background: @background_color_nav;
+}
+
+/* größer als  Smartphone */
+@media (min-width:768px) {
+	.side-nav {
+		border-color: @border_color;
+		background-color: @background_color_nav;
+	}
+	#menu{
+		border-color: @border_color;
+	}
+}
+
+/* Smartphone */
+@media (max-width:767px) {
+	.nav-mobile {
+		.navbar-header {
+			background-color: @background_color_nav;
+			border-color: @border_color;
+		}
+	}
+}

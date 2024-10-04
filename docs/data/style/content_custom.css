@@ -1,0 +1,94 @@
+.panel-danger>.panel-heading {
+    color: #fff;
+    background-color: #E20025;
+    border-color: #57585a;
+}
+
+.panel-danger {
+    border-color: #57585a;
+}
+
+.panel-warning>.panel-heading {
+    color: #000;
+    background-color: #f29200;
+    border-color: #57585a;
+}
+
+.panel-warning {
+    border-color: #57585a;
+}
+
+.panel-primary>.panel-heading {
+    color: #000;
+    background-color: #cfd0d0;
+    border-color: #57585a;
+}
+
+.panel-primary {
+    border-color: #57585a;
+}
+
+.panel-caution>.panel-heading {
+    color: #000;
+    background-color: #ffdf00;
+    border-color: #57585a;
+}
+
+.panel-caution {
+    border-color: #57585a;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #006bab;
+    border-color: #57585a;
+}
+
+.panel-default {
+    border-color: #57585a;
+}
+
+.menutreeitemlevelzero::after  {
+	margin-right: 10px;
+}
+ 
+.menutreeitemlevelone::after {
+	content: "|--";
+	margin-right: 10px;
+}
+
+.menutreeitemlevelonenotext::after{
+	content: "|";
+	margin-right: 10px;
+}
+
+.menutreeitemleveltwo {
+	margin-right: 10px;
+}
+
+.menutreeitemlevelthree {
+	margin-right: 20px;
+}
+
+.menutreeitemlevelfour {
+	margin-right: 30px;
+}
+
+.menutreeitemlevelfive {
+	margin-right: 40px;
+}
+
+.menutree {
+	margin-right: 10px;
+}
+
+.btn {
+	 background-color: grey;
+}
+
+/* Smartphone */
+@media (max-width:767px) {
+	.table-responsive>.table>tbody>tr>td {
+		white-space:normal;
+	}
+}
