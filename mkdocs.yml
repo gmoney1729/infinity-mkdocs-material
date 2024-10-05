@@ -1,6 +1,6 @@
 site_name: Unofficial Infinity Docs
-site_url: https://mydomain.org/infinity/docs
-# repo_url: https://github.com/gmoney1729/WriggleSurveys
+site_url: https://gmoney1729.github.io/infinity-mkdocs-material
+repo_url: https://github.com/gmoney1729/infinity-mkdocs-material
 theme:
   favicon: icons/Infinity.ico
   logo: icons/Infinity_256.png
