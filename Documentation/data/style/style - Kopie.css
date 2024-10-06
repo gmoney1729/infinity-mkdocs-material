@@ -1,0 +1,151 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+To use the calc() function please write ~"calc()"
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ---------- Arrow ---------- */
+/* white 
+@arrow_up: url('../icons/ArrowUpWhite.svg');
+@arrow_down: url('../icons/ArrowDownWhite.svg');
+*/
+/* black */
+/* other 
+for other colors please edit the custom arrows.svg
+@arrow_up: url('../icons/ArrowUpCustom.svg');
+@arrow_down: url('../icons/ArrowDownCustom.svg');
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+}
+a.link {
+  color: #FF0033;
+  text-decoration: underline;
+}
+a.link:hover {
+  color: #666666;
+}
+/*define fonts*/
+/* Japanese */
+@font-face {
+  font-family: "MSPGothic";
+  src: url('..fonts/MS-PGothic.ttf') format('truetype');
+}
+/* Korean */
+@font-face {
+  font-family: "Malgun";
+  src: url('..fonts/malgun.ttf') format('truetype');
+}
+/* Chinese */
+@font-face {
+  font-family: "SimSun";
+  src: url('..fonts/SimSun.ttf') format('truetype');
+}
+/*
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+.highlight {
+  background-color: grey;
+  color: white;
+}
+.btn {
+  background-color: transparent;
+  color: #000000;
+  border-color: #666666;
+}
+.btn:hover {
+  background-color: #666666;
+  color: #ffffff;
+}
+.btn:focus {
+  background-color: #666666;
+  color: #ffffff;
+}
+.navbar .navbar-toggle {
+  border-color: #666666;
+}
+.navbar .navbar-toggle:hover {
+  background-color: #666666;
+}
+.navbar .navbar-toggle:hover .icon-bar {
+  background-color: #ffffff;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.navbar .navbar-toggle:hover .icon-bar {
+  background-color: #ffffff;
+}
+.top-nav > li > a:hover {
+  color: #ffffff;
+  background-color: #666666;
+}
+.top-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #666666;
+}
+.navbar {
+  background-color: #ffffff;
+}
+.navbar-brand-title {
+  color: #000000;
+}
+.navbar-brand-title:hover {
+  color: #ff0032;
+}
+.side-nav li a {
+  color: #000000;
+  border-color: #666666;
+}
+.side-nav li a[data-toggle="collapse"] {
+  background-image: url('../icons/ArrowDownBlack.svg');
+}
+.side-nav li a[aria-expanded="true"] {
+  background-image: url('../icons/ArrowUpBlack.svg');
+}
+.side-nav li a:hover {
+  color: #ffffff;
+  background-color: #666666;
+}
+nav .navbar-nav li.active > a {
+  color: #ffffff;
+  background-color: #999999;
+}
+nav .navbar-nav li.active:hover > a {
+  color: #ffffff;
+}
+.navbar-toggle-tablet {
+  border-color: #666666;
+  background-color: #ffffff;
+}
+.navbar-toggle-tablet .icon-bar {
+  background-color: #000000;
+}
+.navbar-toggle-tablet:hover {
+  background-color: #666666;
+}
+.navbar-toggle-tablet:hover .icon-bar {
+  background-color: #ffffff;
+}
+footer {
+  background: #ffffff;
+}
+/* größer als  Smartphone */
+@media (min-width: 768px) {
+  .side-nav {
+    border-color: #666666;
+    background-color: #ffffff;
+  }
+  #menu {
+    border-color: #666666;
+  }
+}
+/* Smartphone */
+@media (max-width: 767px) {
+  .nav-mobile .navbar-header {
+    background-color: #ffffff;
+    border-color: #666666;
+  }
+}
